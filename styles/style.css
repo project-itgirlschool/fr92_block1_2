@@ -128,3 +128,83 @@ text-align: left;
 background: rgb(0, 236, 208);
 }
 /* Ника */
+
+/* Block3 Anya*/
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block3_main{
+    width: 542px;
+    margin-bottom: 48px;
+}
+
+.block3_h1{
+    font: Inter;
+    size: 48px;
+    color: #18216D;
+    font-weight:600;
+    margin-bottom:12px;
+    text-align: center;
+}
+
+.block3_p1{
+    font: Inter;
+    size: 16px;
+    color: #18216D;
+    font-weight:400;
+    text-align: center;
+}
+
+.block3_submain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 80px;
+}
+
+.block3_card{
+    width: 320px;
+    height: 267px;
+}
+
+.block3_h3{
+    font: Inter;
+    size:24px;
+    color: #18216D;
+    font-weight:600;
+}
+
+.block3_p2{
+    font: Inter;
+    size: 16px;
+    color: #18216D;
+    font-weight:400;
+    opacity: 60%;
+}
+
+.block3_a{
+    size: 20px;
+    text-decoration: none;
+    color: #18216D;
+    font-weight:500;
+    text-align: left;
+    cursor:pointer;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:375px) {
+    .block3_submain{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;}
+    .block3_card{
+        width: 320px;
+        height:212px ;}
+    .block3_main{
+        width: 80%;}
+}

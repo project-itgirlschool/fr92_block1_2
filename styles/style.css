@@ -72,7 +72,8 @@ opacity: 0.05;
 }
 .article_main{
 display: flex;
-justify-content: center
+justify-content: center;
+height: 650px;
 }
 .img_main{
 position: absolute;

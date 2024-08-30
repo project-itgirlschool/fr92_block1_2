@@ -403,6 +403,55 @@
     width: 80%;
   }
 }
+/* Yulia  4 blok*/
+.blok4{
+  width: 1600px;
+  height: 590px;
+  background-color: rgba(0, 0, 255, 0.05);
+  padding-bottom: 5%;
+  
+}
+.integrate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-right: 9%;
+  padding-top: 5%;
+
+}
+.integrate__text {
+  font-family: "Inter", sans-serif; 
+  width: 487px;
+  height:307px;
+  margin-left: 80px;
+  border-radius: 6px;
+  top: 1863px; 
+}
+
+.Integrate__title {
+  margin-top: 0;
+  margin-bottom: 24px; 
+  font-weight: bold;
+  color: #18216D;
+  font-size: 36px;
+}
+
+.integrate__cover {
+  width: 690px;
+height: 437px;
+top: 1798px;
+left: 792px;
+gap: 0px;
+}
+
+.integrate__desc {
+color: #18216D;
+font-size: 16px;
+/* font-weight: 400;
+line-height: 26px; */
+padding-bottom: 5%;
+}
 
 /* Block6 Tatiana*/
 

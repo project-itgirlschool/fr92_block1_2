@@ -294,6 +294,14 @@
 
 
 
+.block_6_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    gap: 20px;
+}
 
 .card {
     margin-top: 20px;

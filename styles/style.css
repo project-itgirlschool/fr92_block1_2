@@ -337,3 +337,150 @@
 .list-group-item {
     border: none;
 }
+
+
+/*block8 Irina*/
+
+footer {
+    height: 100%;
+    width: 100%;
+    padding-left: 12%;
+    padding-right: 10%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.block8_section1 {
+    display: grid;
+    grid-template-columns: repeat(6 fr);
+    grid-template-rows: repeat(7 fr);
+    padding-bottom: 5%;
+}
+
+.block8_1 {
+    color: #18216D;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.block8_11 {
+    display: inline-flex;
+    align-items: center;
+}
+
+.block8_11 .subtract {
+    margin-right: 6px;
+    display: block;
+}
+
+.block8_11 .title {
+    margin: 0;
+    display: inline;
+}
+
+.block8_1 h4 {
+    font-weight: bold;
+}
+
+.block8_1 img {
+    margin: 1%;
+}
+
+.block8_2 {
+    color: #18216D;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 2%;
+}
+
+.block8_2 h5 {
+    font-weight: bold;
+}
+
+.block8_2 a {
+    margin-bottom: 2%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.block8_3 {
+    color: #18216D;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 2%;
+}
+
+.block8_3 h5 {
+    font-weight: bold;
+}
+
+.block8_3 a {
+    margin-bottom: 2%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.block8_4 {
+    color: #18216D;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 2%;
+}
+
+.block8_4 h5 {
+    font-weight: bold;
+}
+
+.block8_4 a {
+    margin-bottom: 2%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.block8_5 {
+    color: #18216D;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+.block8_5 h5 {
+    font-weight: bold;
+}
+
+.block8_51 {
+    display: inline-flex;
+    align-items: center;
+}
+
+.block8_email1 {
+    display: block;
+}
+
+.block8_email_2 {
+    margin: 2%;
+    display: inline;
+    text-decoration: none;
+    color: inherit;
+}
+
+.block8_section2 p {
+    color: #18216D;
+    text-align: center;
+    margin: 4%;
+}

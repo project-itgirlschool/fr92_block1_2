@@ -174,7 +174,7 @@
 .block2_par {
   font-size: 36px;
   color: #18216d;
-  font-family: sans-serif, Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   height: 150px;
   width: 494px;
@@ -196,7 +196,7 @@
   font-size: 60px;
   line-height: 70px;
   font-weight: 700;
-  font-family: sans-serif, Inter;
+  font-family: "Inter", sans-serif;
   color: #18216d;
   margin-bottom: 0;
 }
@@ -553,7 +553,6 @@ padding-bottom: 5%;
 }
 
 .list-group-item {
-<<<<<<< HEAD
     border: none;
 }
 
@@ -703,9 +702,7 @@ footer {
     text-align: center;
     margin: 4%;
 }
-=======
-  border: none;
-}
+
 
 /* Anastasia: block_7 */
 .block_7 {
@@ -777,4 +774,3 @@ footer {
     object-fit: cover;
   }
 }
->>>>>>> 82af5bd959d82ae30a4eda56fdb4781ca1568022

@@ -460,6 +460,74 @@ line-height: 26px; */
 padding-bottom: 5%;
 }
 
+/* Block5 Leila*/
+
+.blok4{
+  width: 1600px;
+  height: 590px;
+  background-color: rgba(0, 0, 255, 0.05);
+  padding-bottom: 5%;
+}
+
+.powering{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-right: 9%;
+  padding-top: 130px;
+}
+
+.powering__text{
+  font-family: "Inter", sans-serif; 
+  width: 496px;
+  height: 444px;
+  margin-left: 95px;
+  border-radius: 6px;
+  top: 2443px; 
+}
+
+.powering__title{
+  margin-top: 0;
+  margin-bottom: 24px; 
+  font-weight: bold;
+  color: #18216D;
+  font-size: 36px;
+}
+
+
+.powering__desc{
+  color: #18216D;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 5%;
+  margin: auto;
+  padding: 0;
+  }
+
+  .faster{
+    width: 309px;
+    height: 107px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blok5list{
+    padding: 0;
+    color: #18216D;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+
+  .block_5_img_card{
+    margin-right: 16px;
+  }
+
+
 /* Block6 Tatiana*/
 
 .block_6 {

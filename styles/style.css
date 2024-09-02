@@ -522,8 +522,8 @@ footer {
 
 .block8_section1 {
     display: grid;
-    grid-template-columns: repeat(6 fr);
-    grid-template-rows: repeat(7 fr);
+    grid-template-columns: repeat (6fr);
+    grid-template-rows: repeat (7fr);
     padding-bottom: 5%;
 }
 
@@ -638,15 +638,8 @@ footer {
     align-items: center;
 }
 
-.block8_email1 {
+.block8_email {
     display: block;
-}
-
-.block8_email_2 {
-    margin: 2%;
-    display: inline;
-    text-decoration: none;
-    color: inherit;
 }
 
 .block8_section2 p {

@@ -26,7 +26,9 @@ right: 1186px;
 top: 35px;
 bottom: -15px;
 }
-
+.burger_header{
+  display: none;
+}
 .nav_header {
 position: relative;
 height: 20px;
@@ -100,7 +102,9 @@ display: flex;
 justify-content: center;
 height: 650px;
 }
-
+.img_main_2{
+  display: none;
+}
 .img_main {
 position: absolute;
 width: 786px;
@@ -815,6 +819,87 @@ font-weight: 400;
 line-height: 26px;
 opacity: 0.6;
 }
+/* Ника */
+@media screen and (max-width: 375px){
+  .logo{
+    position: absolute;
+width: 70.4px;
+height: 20px;
+left: 16px;
+right: 288.6px;
+top: 54px;
+bottom: 1899px;
+  }
+  .button_header{
+    display: none;
+  }
+  .nav_header{
+    display:none ;
+  }
+  .burger_header{
+display: block;
+position: absolute;
+width: 28px;
+height: 12.2px;
+left: 319px;
+right: 28px;
+top: 58px;
+bottom: 1902.8px;
+  }
+  .h1_main{
+    position: absolute;
+width: 291px;
+height: 54px;
+left: 42px;
+top: 115px;
+color: rgb(24, 33, 109);
+font-family: Inter;
+font-size: 28px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: center;
+  }
+  .p_main{
+    position: absolute;
+width: 280px;
+height: 56px;
+left: 48px;
+top: 189px;
+color: rgb(24, 33, 109);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+  }
+  .button_main{
+position: absolute;
+width: 120px;
+height: 40px;
+left: 128px;
+top: 278px;
+border-radius: 6px;
+background: rgb(0, 236, 208);
+font-size: 9px;
+  }
+  .img_main{
+    display: none;
+  }
+  .img_main_2{
+    display: block;
+    position: absolute;
+width: 350.02px;
+height: 300px;
+left: 12px;
+right: 12.98px;
+top: 359px;
+bottom: 1314px;
+  }
+}
+/* Ника */
+
 @media screen and (max-width: 375px) {
 .block_7 {
 height: 100%;

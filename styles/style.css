@@ -275,6 +275,9 @@
     align-self: center;
     margin: 20px;
   }
+  .block2_rating {
+    margin-left: 0px;
+  }
 
   .block2_ {
     flex-direction: column;
@@ -368,12 +371,16 @@
 }
 
 .block3_h1 {
+  
   font: Inter;
-  size: 48px;
+  font-size: 48px;
   color: #18216d;
   font-weight: 600;
   margin-bottom: 12px;
   text-align: center;
+  font-weight: 600;
+  line-height: 60px;
+
 }
 
 .block3_p1 {
@@ -428,7 +435,8 @@
     justify-content: center;
     align-items: center;
   }
-
+  .block3_p1{opacity: 60%;}
+  
   .block3_card {
     width: 320px;
     height: 212px;
@@ -438,12 +446,12 @@
     width: 80%;
   }
 }
-
-/* Yulia  4 blok*/
-.blok4 {
+/* Yulia  4 block*/
+.block4{
   width: 1600px;
-  height: 590px;
+  height: 593px;
   background-color: rgba(0, 0, 255, 0.05);
+  object-fit: cover; 
   padding-bottom: 5%;
 
 }
@@ -451,22 +459,21 @@
 .integrate {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; 
   padding-left: 8%;
   padding-right: 9%;
   padding-top: 5%;
-
 }
 
 .integrate__text {
-  font-family: "Inter", sans-serif;
-  width: 487px;
-  height: 307px;
-  margin-left: 80px;
+  font-family: "Inter", sans-serif; 
+  font-size: 100%;
   border-radius: 6px;
-  top: 1863px;
+  margin-left: 5%;
+  /* top: 50%;  */
+  width: 31vw;
+  
 }
-
 .Integrate__title {
   margin-top: 0;
   margin-bottom: 24px;
@@ -474,23 +481,41 @@
   color: #18216D;
   font-size: 36px;
 }
-
 .integrate__cover {
-  width: 690px;
-  height: 437px;
-  top: 1798px;
-  left: 792px;
-  gap: 0px;
-}
-
+  width: 50%;
+  height: 50%;
+  margin-left:5%;
+  /* margin-right: 5%; */
+  margin-bottom:5%;
+} 
 .integrate__desc {
-  color: #18216D;
-  font-size: 16px;
-  /* font-weight: 400;
-line-height: 26px; */
-  padding-bottom: 5%;
-}
+  color:#18216D;
+    font-size: 16px;
+  padding-bottom: 10%;
+ font-weight: 400;
+line-height: 26px;
+text-align: left;
 
+}
+@media screen and (max-width: 800px){
+  .block4{ 
+      width: 1000px;
+      height: 100% ;
+  }
+
+  .integrate { 
+      justify-content:center;
+  
+  } 
+
+  .integrate__cover {
+      justify-content:center;
+      margin-right: 40%;
+      margin-top: 10px;
+      object-fit: cover; 
+      object-position: bottom;
+  }
+}
 /* Block5 Leila*/
 
 .blok4 {
